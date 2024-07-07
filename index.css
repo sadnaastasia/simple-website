@@ -34,7 +34,12 @@ body {
   margin-bottom: 18px;
   margin-bottom: 18px;
 }
+menu {
+  padding: 0px;
+}
 .button {
+  border: none;
+  outline: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,6 +84,7 @@ body {
   .button {
     width: 261px;
     height: 56px;
+    margin-left: 0px;
   }
   .button > p {
     font-size: 15px;

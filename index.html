@@ -14,12 +14,30 @@
           не менее 2500 средних и малых проектов. Используя знания и накопленный
           опыт мы можем предложить
         </article>
-        <div class="button">
-          <p>Попробовать бесплатно</p>
-          <img src="frame1130.svg" />
-        </div>
+        <menu
+          ><button id="updateDetails" class="button">
+            <p>Попробовать бесплатно</p>
+            <img src="frame1130.svg" />
+          </button>
+        </menu>
       </div>
       <img class="image" src="image15.png" />
     </div>
+    <dialog id="favDialog">
+      <form method="dialog">
+        <section>
+          <header>Войти в систему</header>
+          <input type="text" name="email" value="Type here" />
+          <input type="text" name="password" value="Type here" />
+          <input type="checkbox" />
+          <p><a href="">Восстановить</a></p>
+        </section>
+        <menu>
+          <button id="enter" type="submit"><p>Войти</p></button>
+          <button id="register" type="submit"><p>Зарегистрироваться</p></button>
+        </menu>
+      </form>
+    </dialog>
+    <script src="index.js"></script>
   </body>
 </html>
