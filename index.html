@@ -26,11 +26,27 @@
     <dialog id="favDialog">
       <form method="dialog">
         <section>
-          <header>Войти в систему</header>
-          <input type="text" name="email" value="Type here" />
-          <input type="text" name="password" value="Type here" />
-          <input type="checkbox" />
-          <p><a href="">Восстановить</a></p>
+          <header class="exit">
+            <button id="exit"><img src="frame1723.svg" /></button>
+          </header>
+          <h1 class="enterText">Войти в систему</h1>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email/Телефон"
+          />
+          <input
+            type="text"
+            id="password"
+            name="password"
+            placeholder="Пароль"
+          />
+          <div class="remember">
+            <input type="checkbox" />
+            <p>Запомнить пароль</p>
+          </div>
+          <p class="restore"><a href="">Восстановить</a></p>
         </section>
         <menu>
           <button id="enter" type="submit"><p>Войти</p></button>

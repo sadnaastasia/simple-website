@@ -3,6 +3,7 @@
   const enterButton = document.getElementById('enter');
   const registerButton = document.getElementById('register');
   const favDialog = document.getElementById('favDialog');
+  const exitButton = document.getElementById('exit');
 
   // Update button opens a modal dialog
   updateButton.addEventListener('click', function () {
@@ -10,7 +11,7 @@
   });
 
   // Form cancel button closes the dialog box
-  cancelButton.addEventListener('click', function () {
+  ezitButton.addEventListener('click', function () {
     favDialog.close();
   });
 })();
