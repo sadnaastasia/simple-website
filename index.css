@@ -51,6 +51,10 @@ menu {
   background-color: #244c98;
   border-radius: 60px;
 }
+.button:hover {
+  background: #1d49aa;
+  cursor: pointer;
+}
 .button > p {
   color: #ffffff;
   font-size: 15px;
@@ -160,6 +164,11 @@ a {
   font-size: 18px;
   font-weight: 500;
 }
+#enter:hover {
+  background: #1d49aa;
+  cursor: pointer;
+  opacity: 0.88;
+}
 #register {
   border: none;
   outline: none;
@@ -171,6 +180,12 @@ a {
   border-radius: 10px;
   font-size: 18px;
   font-weight: 500;
+}
+#register:hover {
+  background: #a4aec6;
+  color: #f0f4fc;
+  cursor: pointer;
+  border: none;
 }
 @media (min-width: 768px) {
   body {
