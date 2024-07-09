@@ -85,7 +85,16 @@ dialog {
 #exit {
   border: none;
   outline: none;
-  background-color: #f0f4fc;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background-image: url('./frame1723.svg');
+  background-size: cover;
+  border-radius: 10px;
+}
+#exit:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 .enterText {
   font-size: 24px;
@@ -140,17 +149,23 @@ input[type='text']::-moz-placeholder {
 .remember > input {
   margin: 0px 14px 0px 0px;
 }
+.remember > input:hover {
+  cursor: pointer;
+}
 .remember > p {
   margin: 0px;
 }
 .restore {
   margin-bottom: 36px;
 }
-a {
+.restore > a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 500;
   color: #244c98;
+}
+.restore > a:hover {
+  opacity: 0.6;
 }
 #enter {
   border: none;
@@ -165,9 +180,8 @@ a {
   font-weight: 500;
 }
 #enter:hover {
-  background: #1d49aa;
   cursor: pointer;
-  opacity: 0.88;
+  opacity: 0.7;
 }
 #register {
   border: none;
@@ -182,8 +196,8 @@ a {
   font-weight: 500;
 }
 #register:hover {
-  background: #a4aec6;
-  color: #f0f4fc;
+  background: #e1e2e5;
+  color: #244c98;
   cursor: pointer;
   border: none;
 }
